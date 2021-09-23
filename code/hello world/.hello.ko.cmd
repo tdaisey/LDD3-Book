@@ -1,0 +1,1 @@
+cmd_/home/spacecube/epg/missions/SC3M-Ref/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/spacecube/epg/missions/SC3M-Ref/hello.ko /home/spacecube/epg/missions/SC3M-Ref/hello.o /home/spacecube/epg/missions/SC3M-Ref/hello.mod.o;  true
